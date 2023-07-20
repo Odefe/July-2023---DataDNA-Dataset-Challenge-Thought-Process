@@ -1,0 +1,33 @@
+I decided to concentrate on the repeated guests. 
+Why do they keep coming back?
+Who are they?
+What do they like?
+
+I filtered the entire excel sheet to show me only when a guest is repeated.
+When the value of is repeeated is one.
+Copied entire filtered section and put it in its own sheet for further analysis.
+Created a table.
+Then a Pivot Table in a new sheet.
+I checked which hotel they prefer..
+It doesn't matter if it's sum or count because they both start from 1
+53% to City Hotel so not much diffrence.
+
+I wanted to calculate if having children and babies affect repeat visits.
+I needed to create a formula to know how many adults are with no children or babies.
+This was that formula: =IF(AND(J10>0,K10=0,L10=0),"Adult with Children","Adult with no kids")
+So 3.3% of adults with kids repeat & 1.5% of adults without kids come back.
+It wasn't worth reporting. Didn't visualize it
+
+I decided to visualize which meal plan repeat guests enjoy the most
+Created a pivot table.
+Put the meal in rows and the repeated guest in values.
+I used sum because it will start from 1 and add all the repeated guests.
+SC & UNdefined both meant no meal package so i joined them together and named them that
+
+I wanted to see what time of the month repeat guest come the most.
+So i put arrival_date_month & arrival_date_year in the values of my pivot table.
+then i put count of arrival_date_month & arrival_date_year in the values column. 
+It gave me the same information when i plotted the chart so i removed on of the count from the value.
+
+Created a dashboard from the charts i had.
+Added some information where space was available.
